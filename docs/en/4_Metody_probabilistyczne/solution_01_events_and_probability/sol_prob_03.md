@@ -1,35 +1,34 @@
-# Task 2 — Circuit reliability as events
+# Task 3 — 9 equally likely outcomes (time, errors)
 
 ## Given
-- $A_i$ = event “element $a_i$ works at time $t$”, for $i=1,2,3$.
-- $a_1$ is in **series** with a block where $a_2$ and $a_3$ are **parallel**.
+Time $T\in\{4,5,6\}$ and errors $E\in\{0,1,2\}$.
+So there are $3\cdot 3=9$ equally likely outcomes, each with probability $1/9$.
 
-## Required
-Describe event $A$: “during time interval $t$, current flow is not interrupted”.
-
-## Solution (logic)
-- **Series** part: the circuit needs $a_1$ to work  $\Rightarrow$ must have $A_1$.
-- **Parallel** block: at least one of $a_2$ or $a_3$ works $\Rightarrow$ need $(A_2\cup A_3)$.
-
-So the whole circuit works when:
+## 1) Completed in 4 hours
+For $T=4$, errors can be $0,1,2$ → 3 outcomes:
 $$
-A = A_1 \cap (A_2 \cup A_3).
+P(T=4)=\frac{3}{9}=\frac{1}{3}.
 $$
 
-Equivalent expanded form:
+## 2) Flawlessly in 6 hours
+“6 hours and 0 errors” is exactly one outcome $(6,0)$:
 $$
-A=(A_1\cap A_2)\cup(A_1\cap A_3).
-$$
-
-## Final answer
-$$
-A = A_1 \cap (A_2 \cup A_3).
+P(T=6,\,E=0)=\frac{1}{9}.
 $$
 
-## What he can ask (and what you answer fast)
-- **Why union in parallel?** Because “at least one works”.
-- **Why intersection in series?** Because “all required parts must work”.
-- **What is the failure event?**
+## 3) Completed in at most 5 hours
+“At most 5” means $T\in\{4,5\}$ → $2\cdot 3=6$ outcomes:
 $$
-A' = A_1' \cup (A_2'\cap A_3').
+P(T\le 5)=\frac{6}{9}=\frac{2}{3}.
+$$
+
+## 4) At most 5 hours and at most one error
+$T\in\{4,5\}$ (2 choices) and $E\in\{0,1\}$ (2 choices) → 4 outcomes:
+$$
+P(T\le 5,\,E\le 1)=\frac{4}{9}.
+$$
+
+## Final answers
+$$
+\frac{1}{3},\quad \frac{1}{9},\quad \frac{2}{3},\quad \frac{4}{9}.
 $$
