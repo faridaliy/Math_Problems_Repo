@@ -25,11 +25,3 @@ $$
 $$
 A = A_1 \cap (A_2 \cup A_3).
 $$
-
-## What he can ask (and what you answer fast)
-- **Why union in parallel?** Because “at least one works”.
-- **Why intersection in series?** Because “all required parts must work”.
-- **What is the failure event?**
-$$
-A' = A_1' \cup (A_2'\cap A_3').
-$$
