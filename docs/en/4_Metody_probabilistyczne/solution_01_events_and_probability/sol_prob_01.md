@@ -36,8 +36,3 @@ $$
 $$
 A\cup B=\Omega,\quad A\cap B=\{\omega_3\},\quad B\setminus A=\{\omega_2,\omega_4\},\quad A\setminus B=\{\omega_1,\omega_5\}.
 $$
-
-## What he can ask (and what you answer fast)
-- **What is an event?** A subset of $\Omega$.
-- **What is an elementary outcome?** One element $\omega_i$.
-- **Complement of $A$?** $A'=\Omega\setminus A=\{\omega_2,\omega_4\}$.
