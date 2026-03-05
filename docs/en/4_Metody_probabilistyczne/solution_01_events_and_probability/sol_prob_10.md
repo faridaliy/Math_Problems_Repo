@@ -91,14 +91,14 @@ $$
 
 ### Probability space (model)
 - Hidden sent sequence: $S\in\{AAAA,BBBB,CCCC\}$ with given prior probabilities.
-- Observed sequence: $R$. :contentReference[oaicite:22]{index=22}
+- Observed sequence: $R$. 
 
 ### Conditional structure + total probability
 - Compute $P(R=r)$ by summing over possible sent sequences:
-  prior × likelihood. :contentReference[oaicite:23]{index=23}
+  prior × likelihood. 
 
 ### Independence check
-- Product across positions is valid only because channel errors per position are assumed independent. :contentReference[oaicite:24]{index=24}
+- Product across positions is valid only because channel errors per position are assumed independent. 
 
 ### Sanity checks
 - Probability must be in [0,1].

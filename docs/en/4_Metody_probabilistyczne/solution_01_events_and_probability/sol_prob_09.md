@@ -46,7 +46,7 @@ $$
 - Because one item from each plant and uniform choice: each plant has probability 1/3.
 
 ### Conditional thinking
-- Total probability: overall quality probability is a weighted sum (here equal weights). :contentReference[oaicite:21]{index=21}
+- Total probability: overall quality probability is a weighted sum (here equal weights). 
 
 ### Sanity checks
 - Result must lie between min and max of the plant probabilities.
