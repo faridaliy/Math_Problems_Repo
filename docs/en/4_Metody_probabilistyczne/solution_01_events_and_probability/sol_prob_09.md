@@ -1,0 +1,41 @@
+# Task 9 — One item from each plant, then choose one at random
+
+## Given
+Three plants produce first-quality items with probabilities:
+$$
+p_1=0.97,\quad p_2=0.90,\quad p_3=0.86.
+$$
+
+We have 3 items total: one from each plant.
+Then one of these three items is chosen uniformly at random.
+
+## Required
+Find the probability that the chosen item is first-quality.
+
+## Solution
+Let $P_i$ be the event “the chosen item came from plant $i$”.
+Since the choice is uniform among the 3 items:
+$$
+P(P_1)=P(P_2)=P(P_3)=\frac{1}{3}.
+$$
+
+By the law of total probability:
+$$
+P(\text{first-quality})=\sum_{i=1}^3 P(\text{first-quality}\mid P_i)\,P(P_i).
+$$
+
+Here $P(\text{first-quality}\mid P_i)=p_i$, so:
+$$
+P(\text{first-quality})=\frac{1}{3}(p_1+p_2+p_3)
+=\frac{1}{3}(0.97+0.90+0.86)
+=\frac{2.73}{3}=0.91.
+$$
+
+## Final answer
+$$
+P(\text{first-quality})=0.91.
+$$
+
+## What he can ask (quick answers)
+- **Why divide by 3?** Because the chosen item is equally likely to be from any plant.
+- **What if plant 1 contributed twice as many items as the others?** Then it’s not $\frac{1}{3}$ each; use weighted probabilities instead of a simple average.
