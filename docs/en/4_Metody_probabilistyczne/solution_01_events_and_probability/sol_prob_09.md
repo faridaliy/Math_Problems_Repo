@@ -36,6 +36,3 @@ $$
 P(\text{first-quality})=0.91.
 $$
 
-## What he can ask (quick answers)
-- **Why divide by 3?** Because the chosen item is equally likely to be from any plant.
-- **What if plant 1 contributed twice as many items as the others?** Then it’s not $\frac{1}{3}$ each; use weighted probabilities instead of a simple average.
