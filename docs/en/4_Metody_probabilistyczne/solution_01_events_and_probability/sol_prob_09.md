@@ -36,3 +36,21 @@ $$
 P(\text{first-quality})=0.91.
 $$
 
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Hidden choice: which plant the chosen item came from (1,2,3).
+- Because one item from each plant and uniform choice: each plant has probability 1/3.
+
+### Conditional thinking
+- Total probability: overall quality probability is a weighted sum (here equal weights). :contentReference[oaicite:21]{index=21}
+
+### Sanity checks
+- Result must lie between min and max of the plant probabilities.
+
+### Reflection
+- Core concept: total probability as weighted averaging.
+- What changes if plants provide different counts? weights are not equal.

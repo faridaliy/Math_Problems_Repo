@@ -37,3 +37,25 @@ $$
 \frac{4}{7},\quad \frac{5}{7},\quad \frac{2}{21}.
 $$
 
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Outcomes are pulse types appearing in the first position (or first two positions).
+
+### Conditional thinking (informal)
+- “Without replacement” means the second draw is conditional on the first draw:
+  the denominator changes from 7 to 6.
+
+### Independence check
+- Not independent draws (because without replacement).
+  That is why we update counts after the first draw.
+
+### Sanity checks
+- Probability(first is A or C) must be larger than probability(first is A).
+- Two-step probability must be ≤ first-step probability. 
+
+### Reflection
+- Core concept: modeling sequential draws correctly (dependence).

@@ -32,3 +32,24 @@ $$
 $$
 \frac{1}{3},\quad \frac{1}{9},\quad \frac{2}{3},\quad \frac{4}{9}.
 $$
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Elementary outcomes are pairs $(T,E)$: time and number of errors.
+- Total elementary outcomes: $3\times 3=9$. 
+
+### Key assumption
+- Outcomes are equally likely → probability = favorable count / total count.
+
+### Independence / conditional thinking
+- Not used. This is counting under uniform probability.
+
+### Sanity checks
+- Stricter condition ⇒ probability cannot increase.
+- All probabilities must be between 0 and 1. 
+
+### Reflection
+- Core concept: probability space + counting under equal likelihood.

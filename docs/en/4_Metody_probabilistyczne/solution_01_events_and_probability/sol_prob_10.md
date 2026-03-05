@@ -84,3 +84,25 @@ $$
 $$
 P(R=AAAA)=0.16390,\quad P(R=ACAA)=0.02075.
 $$
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Hidden sent sequence: $S\in\{AAAA,BBBB,CCCC\}$ with given prior probabilities.
+- Observed sequence: $R$. :contentReference[oaicite:22]{index=22}
+
+### Conditional structure + total probability
+- Compute $P(R=r)$ by summing over possible sent sequences:
+  prior × likelihood. :contentReference[oaicite:23]{index=23}
+
+### Independence check
+- Product across positions is valid only because channel errors per position are assumed independent. :contentReference[oaicite:24]{index=24}
+
+### Sanity checks
+- Probability must be in [0,1].
+- If a received string needs many unlikely substitutions, it should be small.
+
+### Reflection
+- Core concept: conditional modeling + total probability + independence across trials.

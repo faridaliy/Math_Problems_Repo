@@ -25,3 +25,25 @@ $$
 $$
 A = A_1 \cap (A_2 \cup A_3).
 $$
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Elementary outcomes correspond to all combinations of component states (works/fails).
+- Event of interest: “current flows / system works”. 
+
+### Modeling translation (core point of the task)
+- Series structure: system works only if all required parts work → intersection.
+- Parallel structure: system works if at least one branch works → union. 
+
+### Independence / conditional thinking
+- Not required unless we compute numeric reliability.
+
+### Sanity checks
+- If the series element fails, system must fail.
+- If all parallel branches fail, system must fail.
+
+### Reflection
+- Core concept: translating real structure into set-theoretic event operations.

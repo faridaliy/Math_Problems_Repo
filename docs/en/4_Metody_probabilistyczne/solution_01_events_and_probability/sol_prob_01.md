@@ -36,3 +36,30 @@ $$
 $$
 A\cup B=\Omega,\quad A\cap B=\{\omega_3\},\quad B\setminus A=\{\omega_2,\omega_4\},\quad A\setminus B=\{\omega_1,\omega_5\}.
 $$
+
+
+---
+
+## Commentary
+
+### Probability space (model)
+- $\Omega$ is explicitly given.
+- Elementary outcomes are the single symbols $\omega_i$.
+- Events are subsets of $\Omega$ (here: $A$ and $B$). 
+
+### Event meaning (plain language)
+- $A\cup B$: in $A$ or in $B$.
+- $A\cap B$: in both.
+- $A^c$: not in $A$.
+- $A\setminus B$: in $A$ but not in $B$. 
+
+### Independence / conditional thinking
+- Not used here (this task is pure event logic / set structure).
+
+### Sanity checks
+- $A\cap B\subseteq A$ and $A\cap B\subseteq B$.
+- $A\cup B\subseteq \Omega$.
+- $(A\setminus B)$ contains no elements from $B$.
+
+### Reflection
+- Core concept: events as sets and logical structure.

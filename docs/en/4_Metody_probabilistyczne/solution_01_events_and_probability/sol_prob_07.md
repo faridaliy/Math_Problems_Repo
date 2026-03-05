@@ -78,3 +78,22 @@ $$
 $$
 P(R=111)=0.3356,\quad P(R=000)=0.1844,\quad P(R=010)=0.0656.
 $$
+
+## Commentary
+
+### Probability space (model)
+- Hidden sent signal: $S\in\{111,000\}$ with given prior probabilities.
+- Observed received signal: $R$. 
+
+### Conditional structure
+- Compute $P(R=r)$ by conditioning on what was sent (total probability). 
+
+### Independence check
+- Multiplying bit probabilities is valid only because bit errors are assumed independent. 
+
+### Sanity checks
+- More flips required → smaller conditional probability (typically).
+- Result must be in [0,1].
+
+### Reflection
+- Core concept: conditional modeling + independence justification.

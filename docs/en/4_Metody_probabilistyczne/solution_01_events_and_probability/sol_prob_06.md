@@ -38,3 +38,23 @@ $$
 $$
 P(F)=0.73,\quad P(M_1\mid F)=\frac{39}{73}\approx 0.534.
 $$
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Hidden variable: which machine produced the item ($M_1$ or $M_2$).
+- Event: item is first-grade ($F$). 
+
+### Conditional thinking (core point)
+- Total probability: combine sources (machines).
+- Bayes: update probability of source after observing “first-grade”.
+- Interpretation: probability changes when information changes. 
+
+### Sanity checks
+- Posteriors add to 1.
+- Observing “first-grade” should shift probability toward the machine with higher first-grade rate.
+
+### Reflection
+- Core concept: conditional probability + Bayesian updating.

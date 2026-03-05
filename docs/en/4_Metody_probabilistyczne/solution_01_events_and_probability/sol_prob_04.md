@@ -37,3 +37,22 @@ $$
 P(\text{current flows}) = 2p - p^2.
 $$
 
+
+---
+
+## Commentary
+
+### Probability space (model)
+- Outcomes describe whether each component works/fails.
+- Event of interest: “system works” in parallel = at least one works. 
+
+### Independence check (explicit)
+- Given $P(A_1\cap A_2)=p^2$ and $P(A_1)=P(A_2)=p$,
+  so $P(A_1\cap A_2)=P(A_1)P(A_2)$ ⇒ independence is justified. 
+
+### Sanity checks
+- If $p=0$ then system works with probability 0.
+- If $p=1$ then system works with probability 1.
+
+### Reflection
+- Core concept: independence must be justified before multiplication.

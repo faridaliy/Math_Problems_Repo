@@ -33,10 +33,25 @@ $$
 P(A')=0.4,\quad P(A\cap B)=0.5,\quad P(A'\cap B')=0.2.
 $$
 
-## What he can ask (quick answers)
-- **Why is $A'\cap B'$ equal to $(A\cup B)'$?** De Morgan’s law: “not A and not B” equals “not (A or B)”.
-- **What would $P(A\setminus B)$ be?**
-$$
-P(A\setminus B)=P(A)-P(A\cap B)=0.6-0.5=0.1.
-$$
-- **Are $A$ and $B$ independent here?** No, because $P(A\cap B)=0.5$ but $P(A)P(B)=0.42$.
+---
+
+## Commentary
+
+### Probability space (model)
+- Abstract events $A$ and $B$; focus is on probability laws.
+
+### Event meaning (plain language)
+- $A^c$: not $A$.
+- $A^c\cap B^c$: neither $A$ nor $B$.
+- By De Morgan: $A^c\cap B^c=(A\cup B)^c$. 
+
+### Independence check
+- Independence is NOT assumed unless stated.
+- You should never replace $P(A\cap B)$ by $P(A)P(B)$ automatically. 
+
+### Sanity checks
+- $P(A\cap B)\le \min(P(A),P(B))$.
+- $P(A\cup B)\ge \max(P(A),P(B))$.
+
+### Reflection
+- Core concept: additivity via inclusion–exclusion + De Morgan logic.
