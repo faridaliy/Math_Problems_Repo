@@ -37,10 +37,3 @@ $$
 \frac{4}{7},\quad \frac{5}{7},\quad \frac{2}{21}.
 $$
 
-## What he can ask (quick answers)
-- **Why is the second probability $\frac{1}{6}$ in part 3?** Because one pulse is already used, so 6 remain.
-- **What about $C$ then $A$?**
-$$
-P(C\text{ then }A)=\frac{1}{7}\cdot\frac{4}{6}=\frac{2}{21}.
-$$
-- **What is the key idea?** Sampling without replacement.
